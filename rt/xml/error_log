@@ -1,0 +1,2 @@
+[05-Jul-2012 10:34:06] PHP Warning:  require_once(/lib/database.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/zanado/public_html/WarpIt.com/rt/xml/getshout.php on line 3
+[05-Jul-2012 10:34:06] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/lib/database.inc' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/zanado/public_html/WarpIt.com/rt/xml/getshout.php on line 3

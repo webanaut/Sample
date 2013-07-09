@@ -1,0 +1,13 @@
+<?php
+//name: testinsert.php
+
+require_once("../lib/database.inc");
+require_once("../lib/db_functions.inc");
+
+$shout_user = "000000000000001";
+$shout_message = "This is a test message.";
+
+$sql = "INSERT INTO shout_messages (shout_user,shout_message) VALUES ('$shout_user','$shout_message')";
+$result = dbQuery($sql);
+
+?>
